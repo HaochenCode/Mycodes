@@ -1,0 +1,17 @@
+// C343/Summer 2022
+// lab 13
+// 2022-6-7
+// Haochen Sun / haocsun
+
+5. The error comes out when n reaches beyond 16384, because the virtual machine runs out of the memory with such big
+data size, so it shows up the heap out of size error.
+
+6. For comparing the two files, the time for EDIT is 25357982 nanoseconds, Hamming is 148396 nanoseconds.
+   For comparing random DNA: (time1 is time for Edit Distance, time2 is for Hamming)
+       n = 4, time1 = 9444, time2 = 1360
+       n = 8, time1 = 5183, time2 = 1415
+       n = 16, time1 = 9484, time2 = 2228
+       n = 32, time1 = 33316, time2 = 3525
+       n = 64, time1 = 164936, time2 = 5678
+       ...
+       n = 18384, time1 = 1839498920, time2 = 1137487

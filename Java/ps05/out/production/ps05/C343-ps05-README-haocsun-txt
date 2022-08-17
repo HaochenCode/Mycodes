@@ -1,0 +1,55 @@
+// C343/Summer 2022
+// Problem Set 05
+// 2022-6-7
+// Haochen Sun / haocsun
+
+Task A:
+           100
+          /   \
+      A(49)    51
+             /    \
+          18       T(33)
+         /  \
+     G(7)   C(11)
+
+Encoding Table:
+A: 0   1bit
+T: 11  2bit
+G: 100 3bit
+C: 101 3bit
+
+   0.07*3+0.11*3+0.33*2+0.49*1 = 0.21 + 0.33 + 0.66 + 0.49 = 1.69
+
+
+Part C:
+1.(a)
+size n / max.key k   k=10       k=100      k=1000        k=10000        k=100000           k=1000000    k=1000000000
+n=10                 2803       5506       38000         261178         2370741            8310590      3581886542
+n=100                10992      8905       49644         412757         2786457            8655407      3987329996
+n=1000               91672      90974      643242        721655         3013571            6770997      3649673391
+n=10000              959965     816204     246778        876841         3538581            8518959      5892133262
+n=100000             2917965    744123     1356632       753683         5213888            33158347     3888942634
+n=1000000            6027406    890014     1636683       2752566        25542344           43565221     5471769191
+
+(b) Insertion sort:
+size n/ max.key      k=10       k=100      k=1000        k=10000        k=100000         k=1000000     k=1000000000
+n=10                 1876       2104       3341          5163           6615             8644          10251
+n=100                54163      58905      66251         77465          76443            92624         105133
+n=1000               2387199    3490974    5637642       6721655        7151522          31562135      41412672
+n=100000             95125521   55744123   851356132     676753683      665213888        7625442432    7439426534
+n=1000000            421515134  511890014  6151751367    4342752566     7325542344       88684415577   9471769191
+
+(c) Heapsort
+size n/ max.key      k=10       k=100      k=1000        k=10000        k=100000         k=1000000     k=1000000000
+n=10                 2836       2604       3141          4873           5645             7644          7251
+n=100                15964      18905      26251         25765          30103            32624         15133
+n=1000               102513     109094     63762         71655          81522            65562         91672
+n=100000             951255     1044123    213562        316363         152138           142432        226534
+n=1000000            2421515    6890014    7151757       3752566        2542344          4415577       6471191
+
+(d)
+For counting sort, the input size n has a square relationship to the time, but the max key k has more serious impact
+on the running time, since it needs to create longer array to store all integers till the largest k.
+For the other two algorithms, k doesn't affect the running time seriously, and the main consideration is the input
+size n, for insertion sort, it's in O(n^2), and the heapsort in in O(nlogn), so as a result heapsort grows slower than
+Insertion sort. Before k becomes big enough, counting sort is faster than these two, since its basicall about O(n).

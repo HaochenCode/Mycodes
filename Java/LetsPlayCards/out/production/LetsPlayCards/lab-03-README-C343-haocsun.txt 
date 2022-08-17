@@ -1,0 +1,2 @@
+This program basically creates a deck of cards, totally 52, and some functions to manipulate the cards. The class DeckOfCards
+implements the DeckOfCardsADT interface and implements all the methods.

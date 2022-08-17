@@ -1,0 +1,2 @@
+This program mainly contains two classes, and TweetManager depends on Tweet. Tweet Class just contains two instance variables
+, author and the tweet; while TweetManager contains an ArrayList of Tweet objects. There are some methods to print,add or remove.
