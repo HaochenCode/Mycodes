@@ -1,3 +1,0 @@
-In this lab, I implemented the heapsort and binary search algorithm so that they can process generic types. And in
-the main function, I wrote tests about these two functions, using different types of array as input and printed the
-results.

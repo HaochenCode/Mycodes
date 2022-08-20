@@ -1,8 +1,0 @@
-// C343/Summer 2022
-// lab 16
-// 2022-6-14
-// Haochen Sun / haocsun
-
-In this program, I briefly implement the MST method, which is Prim's algorithm, on a undirected graph. Basicallly
-including three methods, findMSTbyPrim, closestNeighborDist and relaxForPrim. The last two methods are used as
-helper functions, and the first is the main MST function.

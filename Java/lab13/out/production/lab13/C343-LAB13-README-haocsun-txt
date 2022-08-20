@@ -1,8 +1,0 @@
-// C343/Summer 2022
-// lab 13
-// 2022-6-7
-// Haochen Sun / haocsun
-
-5. The error comes out when n reaches beyond 16384, because the virtual machine runs out of the memory with such big
-data size, so it shows up the heap out of size error.
-
