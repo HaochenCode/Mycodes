@@ -1,13 +1,8 @@
-// C343/Summer 2022
-// Problem Set 02
-// 2022-5-22
-// Haochen Sun / haocsun
 public class BinaryNodePro <K extends Comparable<?super K>> {
 
     private K key;                // key-only, no value
     private BinaryNodePro<K> left;   // left child
     private BinaryNodePro<K> right;  // right child
-
     private int size;          // the size (number of nodes)
     // of the subtree rooted at this node
 
@@ -48,8 +43,8 @@ public class BinaryNodePro <K extends Comparable<?super K>> {
         return size;
     }
 
-    public void setSize(int newSize) {
-        size = newSize;
+    public void setSize(int newsize) {
+        size = newsize;
     }
 
 }
