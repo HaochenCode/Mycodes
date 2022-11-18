@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "cGvmef/HV1Bz77qzFCA4RfLheqHm6V1LFv6PvqmRB17uxAYZpOXKRlEN1/S2OvrH6y1Yn41xID1bIBs5C8Fb/Q==",
+  "success": true,
+  "projectFilePath": "/Users/sunhaochen/Desktop/Test/Test.csproj",
+  "expectedPackageFiles": [
+    "/Users/sunhaochen/.nuget/packages/microsoft.netcore.app.ref/6.0.11/microsoft.netcore.app.ref.6.0.11.nupkg.sha512",
+    "/Users/sunhaochen/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.11/microsoft.aspnetcore.app.ref.6.0.11.nupkg.sha512",
+    "/Users/sunhaochen/.nuget/packages/microsoft.netcore.app.host.osx-x64/6.0.11/microsoft.netcore.app.host.osx-x64.6.0.11.nupkg.sha512"
+  ],
+  "logs": []
+}

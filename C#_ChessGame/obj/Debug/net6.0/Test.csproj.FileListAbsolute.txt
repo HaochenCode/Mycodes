@@ -1,0 +1,15 @@
+/Users/sunhaochen/Desktop/Test/bin/Debug/net6.0/Test
+/Users/sunhaochen/Desktop/Test/bin/Debug/net6.0/Test.deps.json
+/Users/sunhaochen/Desktop/Test/bin/Debug/net6.0/Test.runtimeconfig.json
+/Users/sunhaochen/Desktop/Test/bin/Debug/net6.0/Test.dll
+/Users/sunhaochen/Desktop/Test/bin/Debug/net6.0/Test.pdb
+/Users/sunhaochen/Desktop/Test/obj/Debug/net6.0/Test.csproj.AssemblyReference.cache
+/Users/sunhaochen/Desktop/Test/obj/Debug/net6.0/Test.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sunhaochen/Desktop/Test/obj/Debug/net6.0/Test.AssemblyInfoInputs.cache
+/Users/sunhaochen/Desktop/Test/obj/Debug/net6.0/Test.AssemblyInfo.cs
+/Users/sunhaochen/Desktop/Test/obj/Debug/net6.0/Test.csproj.CoreCompileInputs.cache
+/Users/sunhaochen/Desktop/Test/obj/Debug/net6.0/Test.dll
+/Users/sunhaochen/Desktop/Test/obj/Debug/net6.0/refint/Test.dll
+/Users/sunhaochen/Desktop/Test/obj/Debug/net6.0/Test.pdb
+/Users/sunhaochen/Desktop/Test/obj/Debug/net6.0/Test.genruntimeconfig.cache
+/Users/sunhaochen/Desktop/Test/obj/Debug/net6.0/ref/Test.dll
